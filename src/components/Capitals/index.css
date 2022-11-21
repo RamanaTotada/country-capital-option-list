@@ -1,0 +1,44 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+  padding: 10px;
+}
+.capital-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: azure;
+  border-radius: 8px;
+  padding: 20px;
+}
+.option-container {
+  display: flex;
+}
+* {
+  font-family: 'Roboto';
+}
+.select-option {
+  margin: 10px;
+  font-weight: 500;
+}
+.country {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+.option {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  height: 20px;
+  width: 180px;
+}
+.main-heading {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
